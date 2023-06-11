@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+    
+}
+
+a.linkdois,a.linkdois:hover{
+    color:#f7b600;
+    padding: 1px;
+}
+
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+.cabecalho{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+.branco{
+    color: white;
+}
+
+.postagem1{
+    background-color: white;
+    width: 650px;
+    margin:  10px auto;
+    padding: 10px;
+    float: left;
+    
+}
+
+#logo,#menu{
+    padding: 10px;
+    
+}
+
+#categorias,
+#postagens-recentes{
+    background-color: white;
+    width: 240px;
+    margin: 10px auto;
+    padding: 8px;
+    float: right;
+}
+
+#titulo-categoria,
+#titulo-postagens-recentes{
+    background-color: #9b9797;
+    padding: 5px;
+}
+#area-principal{
+    background: white;
+    width: 950px;
+    margin: 0 auto;
+}
